@@ -1,5 +1,5 @@
 
-ECE 5745 PyMTL CL Modeling
+ECE 5745 Tutorial 7: PyMTL CL Modeling
 ==========================================================================
 
  - Author: Christopher Batten
@@ -55,11 +55,12 @@ is required for lab 1 and may be required for lab 2. While CL modeling is
 not required for the project, students may find that CL modeling can
 facilitate a much broader initial design-space exploration, and thus
 enable students to focus on the most promising designs for RTL
-implementation.
+implementation. This tutorial assumes you have already completed the
+tutorials on Linux, Git, PyMTL, and Verilog.
 
-You should start by cloning the tutorial repository from GitHub and
-creating a build directory. Access an `ecelinux` machine and use the
-following commands:
+The first step is to source the setup script, clone this repository from
+GitHub, and define an environment variable to keep track of the top
+directory for the project.
 
 ```
  % source setup-ece5745.sh
